@@ -8,6 +8,10 @@ public class Piece {
 		this.board = board;
 		position = null;// linha opcional por padrão é nulo.
 	}
+	protected Board getBoard() {
+		return board;
+	}
+	
 	
 
 }
